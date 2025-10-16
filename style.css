@@ -1,6 +1,6 @@
 body{
-    background-color:rgb(124, 8, 66);
-    color: white;
+    background:linear-gradient( to left, rgb(15, 5, 110), rgb(87, 148, 228),rgb(15, 5, 110) );
+    color: rgb(17, 6, 179);
     text-align: center;
     font-size: 1.2rem; 
 
@@ -10,7 +10,7 @@ nav a{
 }
 a{
     text-decoration: none;
-    color: white;
+    color: rgb(12, 46, 241);
 }
 a:hover{
    transition: ease;
@@ -23,8 +23,8 @@ a:active{
     transition: ease;
   transition-duration: 1.0s;
    background-color: rgb(48, 48, 117);
-   padding: 0px 4px;
-   border-radius: 4px;
+   padding: 0px 5px;
+   border-radius: 5px;
 }
 .foto-placa img{
     width: 340px;

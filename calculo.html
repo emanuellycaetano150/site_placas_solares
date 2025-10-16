@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>fazer cálculo</title>
+    <script src="./placas.js"defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="./index.html">Principal</a>
+            <a href="./calculo.html">Fazer Cálculo</a>
+            <a href="./placas.js"></a>
+        </nav>
+        <h1>Calcular valores</h1>
+        <hr>
+        <label for="kw">Potência em watts da sua placa:</label><br>
+        <input type="text"  id="kw"><br><br>
+    
+        <label for="dias">Digite os dias do mês:</label><br>
+        <input type="text"  id="dias"><br><br>
+
+        <label for="efi">Digite a eficiência do sístema:</label><br>
+        <input type="text"  id="efi"><br><br>
+
+        <label for="irradiacao">Digite a irradiação diária:</label><br>
+        <input type="text"  id="irradiacao"><br><br>
+        <hr>
+    
+        <button onclick="principal()">calcular</button>
+        <div id="result"></div>
+</body>
+</html>
